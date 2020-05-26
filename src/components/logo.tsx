@@ -4,7 +4,7 @@ const Logo = () => (
   <svg xmlns="http://www.w3.org/2000/svg"
   width="1.90667in" height="1.42667in"
   viewBox="0 0 572 428">
-    <title>A Never Ending Moment Photography</title>
+    <title>A Neverending Moment Photography</title>
 <path id="Selection"
      fill="white" stroke="gray" stroke-width="1"
      d="M 213.00,275.00
