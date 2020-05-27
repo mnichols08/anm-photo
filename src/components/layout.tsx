@@ -133,6 +133,7 @@ const SideBarInner = styled(Box)<{ bg: string }>`
 
   svg {
     fill: ${(props) => readableColor(`${props.bg}`)};
+    
   }
 `
 
@@ -229,7 +230,7 @@ const Layout = ({ children, color }: LayoutProps) => {
               justifyContent="space-between"
             >
               <Box width={['3rem', '4rem', '5rem', '6rem']}>
-                <Link to="/" aria-label="LekoArts, Back to Home">
+                <Link to="/" aria-label="A Neverending Moment Photography, Back to Home">
                   <Logo />
                 </Link>
               </Box>
