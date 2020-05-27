@@ -1,25 +1,11 @@
 import React from 'react'
-const fill = () => {
-  const curUrlNegIndex = window.location.href[window.location.href.length - 1] 
-  let fill;
-  if (curUrlNegIndex === '/' || curUrlNegIndex  === 't' || curUrlNegIndex  === 'y' )
-  {
-    fill = "black"
-  }
-  else {
-    fill = "white"
-  }
-  return fill
-}
 
 const Logo = () => (
   <svg xmlns="http://www.w3.org/2000/svg"
   width="1.90667in" height="1.42667in"
   viewBox="0 0 572 428">
     <title>A Neverending Moment Photography</title>
-<path id="Logo"
-     fill={fill()} stroke="none" strokeWidth="1"
-     d="M 213.00,275.00
+<path d="M 213.00,275.00
         C 213.00,275.00 186.00,293.40 186.00,293.40
           163.51,306.78 139.70,312.56 114.00,306.11
           101.99,303.09 90.91,297.16 81.00,289.84
