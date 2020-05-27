@@ -7,6 +7,7 @@ import { Box, Flex } from '../elements'
 import theme from '../../config/theme'
 import reset from '../styles/reset'
 import Logo from './logo'
+import Copy from './copy'
 
 const GlobalStyles = createGlobalStyle`
   *::before,
@@ -258,7 +259,9 @@ const Layout = ({ children, color }: LayoutProps) => {
           </Footer>
         </Wrapper>
       </>
+      <Copy />
     </ThemeProvider>
+    
   )
 }
 
