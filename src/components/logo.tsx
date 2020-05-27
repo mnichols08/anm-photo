@@ -6,7 +6,7 @@ const Logo = () => (
   viewBox="0 0 572 428">
     <title>A Neverending Moment Photography</title>
 <path id="Selection"
-     fill="white" stroke="gray" stroke-width="1"
+     fill="white" stroke="none" stroke-width="1"
      d="M 213.00,275.00
         C 213.00,275.00 186.00,293.40 186.00,293.40
           163.51,306.78 139.70,312.56 114.00,306.11
