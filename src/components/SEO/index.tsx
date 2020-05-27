@@ -112,11 +112,19 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
     {
       '@type': 'ListItem',
       item: {
-        '@id': `${siteUrl}/instagram`,
-        name: 'About',
+        '@id': `${siteUrl}/contact`,
+        name: 'Contact',
       },
       position: 4,
     },
+    {
+      '@type': 'ListItem',
+      item: {
+        '@id': `${siteUrl}/instagram`,
+        name: 'Instagram',
+      },
+      position: 5,
+    }
   ]
 
   let schemaArticle = null
@@ -133,7 +141,7 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
         '@type': 'Person',
         name: author,
       },
-      copyrightYear: '2019',
+      copyrightYear: '2020',
       creator: {
         '@type': 'Person',
         name: author,
@@ -184,7 +192,7 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
         <html lang={siteLanguage} />
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
-        <meta name="gatsby-starter" content="Gatsby Starter Portfolio Jodie" />
+        <meta name="anm-photo" content="A Neverending Moment Photography" />
         {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
         {!individual && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
         {individual && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}

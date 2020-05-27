@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import { AnimatedBox } from '../elements'
 import SEO from '../components/SEO'
 
-const About = () => {
+const Contact = () => {
   const pageAnimation = useSpring({
     config: config.slow,
     from: { opacity: 0 },
@@ -13,16 +13,15 @@ const About = () => {
 
   return (
     <Layout>
-      <SEO title="About | ANM Photography" desc="Hi, we are A NeverEnding Moment Photography." />
+      <SEO title="Contact | ANM Photography" desc="Get in touch with A Neverending Moment Photography." />
       <AnimatedBox style={pageAnimation} py={[6, 6, 6, 8]} px={[6, 6, 8, 6, 8, 13]}>
-        <h1>Hello and welcome to A Neverending Moment Photography!</h1>
+        <h1>Contact Us</h1>
         <p>
-          You can visit my <a href="https://www.facebook.com/ANeverendingMomentPhotography">Facebook</a> or my <a href="https://www.instagram.com/aneverendingmomentphotography">Instagram</a>
-          .
+          <a href="mailto:anmphoto@gmail.com">anmphoto@gmail.com</a>
         </p>
       </AnimatedBox>
     </Layout>
   )
 }
 
-export default About
+export default Contact

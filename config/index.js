@@ -1,23 +1,23 @@
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
 
-  siteTitle: 'Jodie', // Navigation and Site Title
-  siteTitleAlt: 'Jodie - Gatsby Starter Portfolio', // Alternative Site title for SEO
-  siteTitleShort: 'Jodie', // short_name for manifest
+  siteTitle: 'A Neverending Moment Photography', // Navigation and Site Title
+  siteTitleAlt: 'ANM Photo', // Alternative Site title for SEO
+  siteTitleShort: 'ANM Photo', // short_name for manifest
   siteHeadline: 'Come & Enjoy our excellent photos', // Headline for schema.org JSONLD
-  siteUrl: 'https://jodie.lekoarts.de', // Domain of your site. No trailing slash!
+  siteUrl: 'https://anm-photo.netlify.app', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
-  siteDescription: 'Image-heavy photography portfolio with colorful accents & great typography',
-  author: 'LekoArts', // Author for schema.org JSONLD
+  siteDescription: 'A collection of the photography of A Neverending Moment Photography',
+  author: 'Mikey Nichols', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
-  userTwitter: '@jodie', // Twitter Username
-  ogSiteName: 'jodie', // Facebook Site Name
+  userTwitter: '', // Twitter Username
+  ogSiteName: 'aneverendingmomentphotography', // Facebook Site Name
   ogLanguage: 'en_US', // og:language
   googleAnalyticsID: 'UA-XXXXXX-X',
 
   // Manifest and Progress color
-  themeColor: '#db7436',
-  backgroundColor: '#3b3c4f',
+  themeColor: '#25a34f',
+  backgroundColor: '#212121',
 }
