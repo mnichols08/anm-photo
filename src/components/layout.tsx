@@ -254,7 +254,7 @@ const Layout = ({ children, color }: LayoutProps) => {
           <Main>{children}</Main>
           <Footer color={color}>
             <Box p={[6, 6, 8]} fontSize={0}>
-              Theme Design by <a href="https://mikeynichols.dev">Mikey Nichols</a>.
+            &copy; Copyright { new Date().getFullYear() }
             </Box>
           </Footer>
         </Wrapper>
